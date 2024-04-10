@@ -2,6 +2,8 @@
 
 在 KubeSphere4.0 中为实现“可插拔”的特性，我们设计了“微内核+插件”的架构。其中“内核”部分仅包含系统运行的必备基础功能，而将独立的业务模块分别封装在各个插件中。系统可在运行时动态的安装、卸载、启动、停止插件。架构总体设计如下图：
 
+测试测是
+
 
 ![前端架构](https://raw.githubusercontent.com/kubesphere/community/7f56941bbfd6107475a001d78e5f1c0ae06a9a6d/sig-architecture/images/frontend-framework.svg "title")
 
